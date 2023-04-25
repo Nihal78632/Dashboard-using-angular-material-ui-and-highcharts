@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'dashbourd';
+  sidebar:boolean=true
+
+  //creating toggle in parent
+  toggling(){
+    this.sidebar=!this.sidebar
+  }
 }

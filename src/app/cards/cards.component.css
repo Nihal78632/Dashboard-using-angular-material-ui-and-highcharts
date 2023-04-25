@@ -1,0 +1,25 @@
+.cards{
+
+    width: 200px;
+    height: 100px;
+}
+.cards mat-icon{
+font-size: 50px;
+height: fit-content;
+width: fit-content;
+}
+.cards h3{
+    font-weight: 600;
+}
+.Orange{
+    background-color: orange;
+}
+.Green{
+    background-color: rgb(20, 247, 20);
+}
+.Red{
+    background-color: red;
+}
+.blue{
+    background-color: rgb(81, 81, 231);
+}

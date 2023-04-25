@@ -1,0 +1,25 @@
+<div fxLayout="row" fxLayoutAlign="space-between center">
+    <!-- card 1 -->
+   <mat-card> <app-cards bg="Orange" icon="import_contacts" content="Admissions" total="2000" ></app-cards></mat-card>
+ <!-- card 2 -->
+ <mat-card> <app-cards bg="Green" icon="home" content="Placements" total="3000"></app-cards></mat-card>
+ <!-- card 3 -->
+ <mat-card> <app-cards bg="Red" icon="persons" content="Students" total="4000"></app-cards></mat-card>
+ <!-- card 4 -->
+ <mat-card><app-cards bg="blue" icon="group" content="Employees" total="100"></app-cards></mat-card>
+
+
+
+</div>
+<div>
+     <!-- area chart -->
+    <app-area-charts></app-area-charts>
+</div>  
+
+<div fxLayout="row">
+
+ <!-- table -->
+   <div fxFlex="60"> <app-table></app-table></div>
+    <!-- pie chart -->
+   <div fxFlex="40"> <app-pie-chart></app-pie-chart></div>
+</div>
